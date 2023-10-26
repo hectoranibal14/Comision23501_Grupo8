@@ -1,0 +1,57 @@
+/* formulario */
+.principal{
+    overflow: auto;
+    position: relative;
+}
+
+.formulario {
+    background-color: rgba(171, 161, 136, 0.584);
+    width: 70%;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 100px 0 80px;
+}
+  
+form {
+    text-align: left;
+    justify-content: center;
+    padding: 5px;
+}
+  
+input::placeholder {
+    font-style: italic;
+    color: thistle;
+    opacity: 0.7;
+}
+  
+.submit {
+    padding: 5px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    border-radius: 7px;
+    width: 50%;
+}
+  
+.submit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+input[type=text], input[type=email], input[type=tel], input[type=number], input[type=date], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.h3 {
+    color: rgb(216, 161, 161);
+    padding-top: 100px;
+}

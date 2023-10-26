@@ -1,0 +1,18 @@
+.texto1{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #9b8078;
+    border: 2px solid black;
+    padding: 100px 15px;
+  }
+  
+.subtitulos{
+    font-style: italic;
+     font-family: 'Open Sans', sans-serif;
+     text-decoration: underline;
+     margin-left: 3%;
+     color: black;
+  }
+
+  .costo {
+    color: black;
+  }

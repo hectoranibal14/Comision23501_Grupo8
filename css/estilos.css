@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Vidaloka');
+@import url(menu.css);
+@import url(forms.css);
+@import url(especialidades.css);
+@import url(footer2.css);
+@import url(menudia.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+html{
+    height: 100%;
+}
+
+body {
+    /*font-family: 'Open Sans', sans-serif;*/
+    background-color: #634942;
+}
+
+main{
+    overflow: auto;
+}
+
+.contenedor {
+    width: 100%;
+    position: relative;
+    display: relative;
+}
+
+h1 {
+    float: left;
+    /*margin: 20px 0 0 10px;*/
+    font-family: 'Merriweather', serif;
+    font-size: 39px;
+    padding: 20px 5px;
+}
+
+.home {
+    /*color: rgb(216, 161, 161);*/
+    padding: 10px;
+    margin-top: 80px;
+}
+h3, h4, p {
+    color: rgb(216, 161, 161);
+    margin-top: 5px;
+}
+
+.seccion1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 2vw;
+}
+
+.seccion2 {
+    padding-top: 1vw;
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+  
+.seccion2 img {
+    width: 1%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.seccion2 img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.especialidades{
+    width: 100%;
+    /*height: 100%;*/
+    position: relative;
+    /*display: relative;*/
+    top:20px;
+    margin-bottom: 120px;
+    padding: 80px 20px 10px;
+    overflow-y: scroll;
+}
+

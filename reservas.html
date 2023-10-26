@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fetuccini</title>
+        <link rel="stylesheet" href="css\estilos.css">
+        <link rel="stylesheet" href="css/forms.css">
+        <link rel="stylesheet" href="css/footer2.css">
+        <script src="https://kit.fontawesome.com/04195362f5.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="img/FETTUCCINEPOBLANO_300x300.ico">
+    </head>    
+<body>
+    <header>
+        <iframe src="menu.html"  frameborder="0"></iframe>
+    </header>
+        
+    <main>
+        <div class="principal">
+            
+
+            <div class="formulario seccion1">
+                <h3 class="contacto">Hacé tu reserva</h3>
+                <form name="valido">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre y Apellido" name="Nombre">
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="formGroupExampleInput2" placeholder="Teléfono" name="Telefono">
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Cantidad de comensales</label>
+                        <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Cantidad de Comensales" name="Comensales" min="0">
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Fecha</label>
+                        <input type="date" class="form-control" id="formGroupExampleInput2" value="2023-08-29" min="2022-01-01" max="2023-12-31" name="Fecha">
+                    </div>
+                    <br><br>
+                    <button type="submit" class="submit" onclick="validarDatosReserva()">Reservar</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="js\formularioReserva.js"></script>
+
+</body>
+<footer>
+    <iframe src="footer.html" class="footer" frameborder="0"></iframe>
+</footer>
+</html>
